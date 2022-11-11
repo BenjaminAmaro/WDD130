@@ -224,3 +224,60 @@ footer .social img{
     }
 }
             
+/* here starts the css for Dates&Rates */
+.h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 10px;
+    font-family: Helvetica, sans-serif;
+}
+.grid_rates {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1%;
+    text-align: center;
+}
+.explain {
+    color: gray;
+}
+.pricing {
+    color: green;
+    font-weight: 650;
+}
+.dates {
+    color: #bc6c25;
+}
+.left_rates {
+    margin: 50px;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+}
+.right_images {
+    margin: 50px;
+    display: grid;
+    grid-template-rows: 100px, 20px, 100px;
+    justify-items: center;
+    
+}
+.reserve {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    background-color: #283618;
+    color: #bc6c25;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.reserve:hover {
+    background-color: wheat;
+}
+.pic {
+    box-shadow: 5px 5px 10px #6f7364;
+}

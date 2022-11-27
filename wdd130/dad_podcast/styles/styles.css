@@ -27,8 +27,6 @@ nav a {
     justify-self: center;
     align-self: center;
     color: #62CDA3;
-    /* -webkit-text-fill-color: #463C4C;
-    -webkit-text-stroke-width: 1px; */
     font-size: 2rem;
     text-decoration: none;
     font-family: 'Urbanist', sans-serif;
@@ -51,10 +49,6 @@ nav a:hover {
     z-index: -1;
     height: 700px;
     border-radius: 50px;
-    /* margin-top: -100px; */
-    /* border-radius: 30% 70% 79% 21% / 62% 35% 65% 38% ; */
-    /* border-radius: 10% 10% 10% 10% / 14% 10% 10% 10%  ; */
-    /* background-color: #FEA785; */
     background-color: rgba(0, 0,0,0.1);
 }
 #hero-element {
@@ -97,7 +91,6 @@ div p {
     /* border: solid black; */
     border-radius: 50px;
     background-color: rgba(0, 0,0,0.2);
-    /* background: linear-gradient(145deg, #54b78f, #64d9aa); */
     box-shadow:  20px 20px 60px #2b5d49,
                     -20px -20px 60px #8ffff5;    
     overflow: hidden;
@@ -118,7 +111,6 @@ div p {
     height: 550px;
     border-radius: 50px;
     background-color: rgba(0, 0,0,0.1);
-    /* background: linear-gradient(145deg, #54b78f, #64d9aa); */
     box-shadow:  20px 20px 60px #2b5d49,
     -20px -20px 60px #8ffff5;
     overflow: hidden;
@@ -135,7 +127,6 @@ div p {
     color: black;
     border-radius: 50px;
     background-color: rgba(0, 0,0,0.1);
-    /* background: linear-gradient(145deg, #54b78f, #64d9aa); */
     box-shadow:  20px 20px 60px #2b5d49, -20px -20px 60px #8ffff5;    
     overflow: hidden;
     width: 300px;

@@ -4,7 +4,7 @@ body{
     /* box-sizing: border-box; */
     background: rgb(70,60,76);
     background: linear-gradient(90deg, rgba(70,60,76,1) 28%, rgba(254,167,133,1) 100%, rgba(98,205,163,1) 100%);    
-
+    background-repeat: no-repeat;
 }
 /* header */
 .logo {

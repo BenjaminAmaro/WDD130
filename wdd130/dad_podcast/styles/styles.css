@@ -1,6 +1,9 @@
 body{
     margin: 0%;
     padding: 0%;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
     /* box-sizing: border-box; */
     background: rgb(70,60,76);
     background: linear-gradient(90deg, rgba(70,60,76,1) 28%, rgba(254,167,133,1) 100%, rgba(98,205,163,1) 100%);    
@@ -85,7 +88,7 @@ div p {
     border-radius: 50px;
     background-color: rgba(0, 0,0,0.2);
     box-shadow:  20px 20px 60px #2b5d49,
-                    -20px -20px 60px #8ffff5;    
+                    -20px -20px 60px #2b5d49;    
     overflow: hidden;
     width: 300px;
     height: 550px;
@@ -116,7 +119,7 @@ div p {
     border-radius: 50px;
     background-color: rgba(0, 0,0,0.1);
     box-shadow:  20px 20px 60px #2b5d49,
-    -20px -20px 60px #8ffff5;
+    -20px -20px 60px #2b5d49;
     overflow: hidden;
     color: #62CDA3;
 }
@@ -161,22 +164,25 @@ div p {
     -ms-transform: translate(-50%, -50%);
     text-align: center;
 }
-/* overlay */
-/* .episode-center:hover {
-    opacity: .6;
-    transform: scale(1.1);
+.episode-right {
+    padding: 50px;
+    /* border: solid black; */
+    width: 300px;
+    height: 550px;
+    border-radius: 50px;
+    background-color: rgba(0, 0,0,0.1);
+    box-shadow:  20px 20px 60px #2b5d49,
+    -20px -20px 60px #2b5d49;
+    overflow: hidden;
+    color: #62CDA3;
 }
-.episode-left:hover {
-    opacity: .6;
-    transform: scale(1.1);
-} */
 .platform-right {
     padding: 50px;
     text-decoration: none;
     color: black;
     border-radius: 50px;
     background-color: rgba(0, 0,0,0.1);
-    box-shadow:  20px 20px 60px #2b5d49, -20px -20px 60px #8ffff5;    
+    box-shadow:  20px 20px 60px #2b5d49, -20px -20px 60px #2b5d49;    
     overflow: hidden;
     width: 300px;
     height: 550px;
@@ -270,6 +276,10 @@ div p {
     font-size: 2rem;
     font-family: 'Roboto Slab', serif;
 }
+span {
+    display: block;
+    margin-bottom: 20px;
+}
 /* footer */
 footer {
     border-top: 2px solid #62CDA3;
@@ -295,4 +305,14 @@ footer p a:hover {
 }
 a {
     text-decoration: none;
+}
+
+/* episodes page extra CSS */
+.title-episodes {
+    color: #62CDA3;
+    font-size: 4rem;
+    font-family: 'Urbanist', sans-serif;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }

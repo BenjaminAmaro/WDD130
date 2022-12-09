@@ -321,11 +321,102 @@ a {
 }
 
 /* episodes page extra CSS */
-.title-episodes {
+.title-sing-up {
     color: #62CDA3;
     font-size: 4rem;
     font-family: 'Urbanist', sans-serif;
     text-align: center;
     margin-top: 150px;
     margin-bottom: 150px;
+}
+/* sing up extra CSS*/
+.form {
+    text-decoration: none;
+    color: #62CDA3;
+    border-radius: 50px;
+    background-color: rgba(0, 0,0,0.1);
+    box-shadow:  20px 20px 60px #2b5d49, -20px -20px 60px #2b5d49;    
+    overflow: hidden;
+    width: 500px;
+    height: 800px;
+    margin: 20px;
+    padding-top: 40px;
+    padding-left: 90px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-family: 'Urbanist', sans-serif;
+}
+input {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+button {
+    margin-top: 40px;
+    padding-left: 0;
+    width: 310px;
+    height: 70px;
+    border-radius: 5PX;
+    background-color: #62CDA3;
+}
+button:hover {
+    box-shadow: 2px 2px 5px #FEA785;
+}
+input:hover {
+    box-shadow: 2px 2px 5px #FEA785;
+}
+input:focus {
+    background-color: #FEA785;
+}
+.left-sing-up {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.right-sing-up {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.masterclass {
+    width: 800px;
+    height: 800px;
+    margin: 20px;
+    border-radius: 50px;
+    background-color: rgba(0, 0,0,0.1);
+    box-shadow:  20px 20px 60px #2b5d49, -20px -20px 60px #2b5d49;    
+    overflow: hidden;
+}
+
+.last-img {
+    width: 100%;
+    height: 100%;
+    grid-column: 2/5;
+    grid-row: 2/3;
+    border-radius: 50px;
+    background-color: rgba(0, 0,0,0.1);
+    box-shadow:  20px 20px 60px #2b5d49, -20px -20px 60px #2b5d49;    
+    overflow: hidden;
+
+}
+.container-sing-up {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr ; 
+    gap: 0px 0px; 
+    width: 100%;
+}
+.last_holder {
+    /* grid-column: 1/3;
+    grid-row: 2/3; */
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.5fr 2fr 0.5fr; 
+    gap: 0px 0px; 
 }
